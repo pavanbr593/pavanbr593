@@ -3,10 +3,12 @@ Hi there! 👋<br><br>I'm Pavan Bendre R, a final-year B.E. student specializing
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/pavan_.bedre)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pavan-bendre-r)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@pavanbr593)
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/pavan_.bedre)
+
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/PavanBR18)
+
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pavanbr593@gmail.com)
 
 # 💻 Tech Stack:
