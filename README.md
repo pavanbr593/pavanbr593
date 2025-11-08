@@ -23,8 +23,7 @@ Building AI that not only performs — but understands, learns, and evolves.
 - **[Police Bandobast Management System (Commercial Project)](https://github.com/pavanbr593/Police-Bandobast-Management-System)**  
   React Native mobile app for secure police login, GPS-based staff tracking, instant messaging, and push notifications. Load-tested using JMeter and successfully deployed during the **Ganapathi Procession** for real-time monitoring of police personnel.
   
-- **[Civic Report Application](https://github.com/pavanbr593/Civic-Reporting-app)**
-  
+- **[Civic Report Application](https://github.com/pavanbr593/Civic-Reporting-app)** 
   React Native mobile app for citizen issue reporting with live GPS tracking, photo uploads, and real-time dashboard visualization — enabling transparent civic engagement during public infrastructure monitoring.
 
 - **[Travel Itinerary Planner](https://github.com/pavanbr593/Travel-Itinerary-Planner)**  
