@@ -1,5 +1,11 @@
-# 💫 About Me:
-Hi there! 👋<br><br>I'm Pavan Bendre R, a final-year B.E. student specializing in Artificial Intelligence and Machine Learning at Shivamo. I'm passionate about leveraging cutting-edge AI technologies, including Deep Learning, Generative AI, and Machine Learning, to craft solutions that drive real-world impact. I’m also deeply interested in entrepreneurship, always looking for ways to merge tech with innovation to solve meaningful problems.
+# HI , I'm Pavan Bendre R :
+I’m an AI & Machine Learning Developer passionate about creating intelligent, scalable, and human-aligned solutions. My work lies at the intersection of deep learning, generative AI, and intelligent automation, where I focus on transforming complex data into actionable, interpretable systems.
+
+I specialize in developing end-to-end AI pipelines — from model design and explainability (using SHAP, LangChain, and LIME) to production-level deployment with FastAPI, Flask, and Streamlit. My approach blends research-driven thinking with real-world engineering, ensuring every model I build is transparent, reliable, and impactful.
+
+Driven by curiosity and guided by innovation, I’m constantly exploring advancements in large language models, multi-modal AI, and data-centric learning, with a long-term vision to contribute to ethical, adaptive, and scalable AI systems.
+
+Building AI that not only performs — but understands, learns, and evolves.
 
 
 ## 🌐 Socials:
