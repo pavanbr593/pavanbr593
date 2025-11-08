@@ -17,15 +17,8 @@ Building AI that not only performs — but understands, learns, and evolves.
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pavanbr593@gmail.com)
 
 ---
-### Projects
 
-- [Police Bandobast Management System (Commercial Project)] (https://github.com/pavanbr593/Police-Bandobast-Management-System/settings) - React Native mobile app for secure police login, GPS-based tracking, instant messaging, and push notifications; load-tested with JMeter and successfully deployed at Ganapathi Procession for real-time staff monitoring.
--[Travel Itinerary Planner] (https://github.com/pavanbr593/Travel-Itinerary-Planner) - AI-powered assistant using NLP, LangChain, Gradio, and API integration to generate personalized travel plans based on user input.
--[AI Image Generator] (https://github.com/pavanbr593/AI-Image-Generator) - Developed a diffusion model for high-quality text-to-image synthesis, enabling rapid prototyping of creative visuals.
--[Restaurant Review Sentiment Analysis] (https://github.com/pavanbr593/customer-review-sentiment-analysis) - NLP-based sentiment classifier built with Scikit-learn to automatically categorize and interpret restaurant customer reviews.
--[Water Footprint Calculator] (https://github.com/pavanbr593/Water-footprint-calculator)- AI-driven web app developed in Streamlit that estimates personal or organizational water usage, leveraging Pandas and NumPy for data analysis.
-
-## 🚀 Projects
+## Projects
 
 - **[Police Bandobast Management System (Commercial Project)](https://github.com/pavanbr593/Police-Bandobast-Management-System)**  
   React Native mobile app for secure police login, GPS-based staff tracking, instant messaging, and push notifications. Load-tested using JMeter and successfully deployed during the **Ganapathi Procession** for real-time monitoring of police personnel.
