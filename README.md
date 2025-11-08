@@ -25,6 +25,24 @@ Building AI that not only performs — but understands, learns, and evolves.
 -[Restaurant Review Sentiment Analysis] (https://github.com/pavanbr593/customer-review-sentiment-analysis) - NLP-based sentiment classifier built with Scikit-learn to automatically categorize and interpret restaurant customer reviews.
 -[Water Footprint Calculator] (https://github.com/pavanbr593/Water-footprint-calculator)- AI-driven web app developed in Streamlit that estimates personal or organizational water usage, leveraging Pandas and NumPy for data analysis.
 
+## 🚀 Projects
+
+- **[Police Bandobast Management System (Commercial Project)](https://github.com/pavanbr593/Police-Bandobast-Management-System)**  
+  React Native mobile app for secure police login, GPS-based staff tracking, instant messaging, and push notifications. Load-tested using JMeter and successfully deployed during the **Ganapathi Procession** for real-time monitoring of police personnel.
+
+- **[Travel Itinerary Planner](https://github.com/pavanbr593/Travel-Itinerary-Planner)**  
+  AI-powered assistant leveraging **NLP**, **LangChain**, **Gradio**, and external APIs to generate **personalized travel itineraries** based on user preferences and destinations.
+
+- **[AI Image Generator](https://github.com/pavanbr593/AI-Image-Generator)**  
+  Implemented a **diffusion-based text-to-image synthesis model** to create high-quality visuals from text prompts, enabling **rapid prototyping and creative content generation**.
+
+- **[Restaurant Review Sentiment Analysis](https://github.com/pavanbr593/customer-review-sentiment-analysis)**  
+  Built an **NLP-based sentiment classifier** using **Scikit-learn** to automatically analyze and interpret restaurant reviews, providing actionable insights into customer satisfaction.
+
+- **[Water Footprint Calculator](https://github.com/pavanbr593/Water-footprint-calculator)**  
+  Developed an **AI-driven Streamlit web app** that estimates personal or organizational water usage, leveraging **Pandas** and **NumPy** for analytical insights and data-driven sustainability tracking.
+
+
 
 ## Tools and Technologies 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
