@@ -20,6 +20,41 @@ Building AI that not only performs — but understands, learns, and evolves.
 
 ## Projects
 
+**[AI Knowledge Intelligence Platform (Multi-Modal RAG)](https://github.com/pavanbr593/Multimodal-RAG-platform)**
+
+A multi-modal Retrieval-Augmented Generation (RAG) system enabling grounded question answering over documents and images.
+
+**Key Features:**
+- Text embeddings using SentenceTransformers
+- Image embeddings using CLIP
+- FAISS-based vector retrieval
+- Local LLM inference using Phi-3 via Ollama
+- End-to-end pipeline: ingestion, chunking, retrieval, grounding, generation
+
+---
+**[Document Intelligence Platform (Document-QA using RAG)](https://github.com/pavanbr593/Document-QA)**
+
+A full-stack document question answering system delivering citation-grounded responses.
+
+**Key Features:**
+- Semantic chunking with overlap
+- Dense vector embeddings
+- FAISS-powered retrieval
+- Local Phi-3 LLM for private inference
+- Streamlit-based document upload and querying interface
+
+---
+**[ Non-Invasive Health Monitoring System (Research + Applied AI)]**
+
+An AI-driven research system for non-invasive estimation of glucose levels and vital signs.
+
+**Key Features:**
+- Metadata-aware regression models
+- Achieved **18% reduction in Mean Absolute Error (MAE)**
+- Clinician dashboards for data interpretation
+- Mobile application for real-time monitoring
+
+
 - **[Police Bandobast Management System (Commercial Project)](https://github.com/pavanbr593/Police-Bandobast-Management-System)**  
   React Native mobile app for secure police login, GPS-based staff tracking, instant messaging, and push notifications. Load-tested using JMeter and successfully deployed during the **Ganapathi Procession** for real-time monitoring of police personnel.
   
