@@ -44,7 +44,7 @@ A full-stack document question answering system delivering citation-grounded res
 - Streamlit-based document upload and querying interface
 
 ---
-**[ Non-Invasive Health Monitoring System (Research + Applied AI)]**
+[ Non-Invasive Health Monitoring System (Research + Applied AI)]
 
 An AI-driven research system for non-invasive estimation of glucose levels and vital signs.
 
@@ -54,7 +54,7 @@ An AI-driven research system for non-invasive estimation of glucose levels and v
 - Clinician dashboards for data interpretation
 - Mobile application for real-time monitoring
 
-
+---
 - **[Police Bandobast Management System (Commercial Project)](https://github.com/pavanbr593/Police-Bandobast-Management-System)**  
   React Native mobile app for secure police login, GPS-based staff tracking, instant messaging, and push notifications. Load-tested using JMeter and successfully deployed during the **Ganapathi Procession** for real-time monitoring of police personnel.
   
