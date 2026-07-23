@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+  <!-- Outer card background matching GitHub dark mode -->
+  <rect width="800" height="180" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  
+  <!-- Subtle grid dots or background texture for modern tech aesthetic -->
+  <defs>
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#21262d" />
+    </pattern>
+  </defs>
+  <rect width="800" height="180" fill="url(#dotGrid)" rx="12"/>
+
+  <!-- Horizontal connecting timeline path -->
+  <line x1="100" y1="90" x2="700" y2="90" stroke="#30363d" stroke-width="4" stroke-dasharray="8 6"/>
+  <line x1="100" y1="90" x2="300" y2="90" stroke="#58a6ff" stroke-width="4" opacity="0.3"/>
+  <line x1="500" y1="90" x2="700" y2="90" stroke="#3fb950" stroke-width="4" opacity="0.3"/>
+
+  <!-- Timeline Node 1: OPQTECH Pvt Ltd -->
+  <g>
+    <!-- Outer glowing ring -->
+    <circle cx="250" cy="90" r="16" fill="#58a6ff" opacity="0.15"/>
+    <!-- Outer ring border -->
+    <circle cx="250" cy="90" r="11" fill="#58a6ff" stroke="#0d1117" stroke-width="3"/>
+    <!-- Inner core dot -->
+    <circle cx="250" cy="90" r="5" fill="#0d1117"/>
+    
+    <!-- Text Labels -->
+    <text x="250" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14" font-weight="700" fill="#e6edf3" text-anchor="middle">AI Engineer Intern</text>
+    <text x="250" y="125" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#58a6ff" text-anchor="middle">OPQTECH Pvt Ltd (Remote)</text>
+    <text x="250" y="145" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Nov 2024 – May 2025</text>
+  </g>
+
+  <!-- Timeline Node 2: Saturam Inc. -->
+  <g>
+    <!-- Outer glowing ring -->
+    <circle cx="550" cy="90" r="16" fill="#3fb950" opacity="0.15"/>
+    <!-- Outer ring border -->
+    <circle cx="550" cy="90" r="11" fill="#3fb950" stroke="#0d1117" stroke-width="3"/>
+    <!-- Inner core dot -->
+    <circle cx="550" cy="90" r="5" fill="#0d1117"/>
+    
+    <!-- Text Labels -->
+    <text x="550" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14" font-weight="700" fill="#e6edf3" text-anchor="middle">AI/ML Intern</text>
+    <text x="550" y="125" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#3fb950" text-anchor="middle">Saturam Inc. (Bengaluru)</text>
+    <text x="550" y="145" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Feb 2026 – Apr 2026</text>
+  </g>
+</svg>

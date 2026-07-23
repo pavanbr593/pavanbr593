@@ -105,14 +105,10 @@
 
 ### 💼 Professional Experience
 
-```mermaid
-timeline
-    title Internships Timeline
-    2024-11 : AI Engineer Intern <br/> OPQTECH Pvt Ltd (Remote)
-    2025-05 : Internship end
-    2026-02 : AI/ML Intern <br/> Saturam Inc. (Bengaluru)
-    2026-04 : Internship end
-```
+<div align="center">
+  <img src="./assets/experience.svg" alt="Pavan Bendre R's Experience Timeline" width="100%" />
+</div>
+
 
 #### 🏢 AI/ML Intern | Saturam Inc., Bengaluru 
 _Feb 2026 – Apr 2026_
