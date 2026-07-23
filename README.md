@@ -10,7 +10,7 @@
   <a href="https://www.linkedin.com/in/pavan-bendre-r"><!-- COMMENT: Replace with your LinkedIn profile URL --><img src="https://img.shields.io/badge/LinkedIn-1E293B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:pavanbr593@gmail.com"><!-- COMMENT: Replace with your Email address --><img src="https://img.shields.io/badge/Email-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
   <a href="./assets/Pavan%20Resume.pdf" target="_blank"><!-- COMMENT: Path to your Resume PDF --> <img src="https://img.shields.io/badge/Resume-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>&nbsp;
-  <a href="https://pavanbr.dev" target="_blank"><!-- COMMENT: Replace with your Portfolio URL if available --><img src="https://img.shields.io/badge/Portfolio-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>&nbsp;
+  <a href="https://pavanbr-portfolio.vercel.app" target="_blank"><!-- COMMENT: Replace with your Portfolio URL if available --><img src="https://img.shields.io/badge/Portfolio-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=pavanbr593&label=Profile%20Views&color=334155&style=for-the-badge" alt="Profile Views" />
 </p>
 
@@ -42,29 +42,64 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🤖 AI & GenAI</h4>
-      <img src="https://skillicons.dev/icons?i=python,js,ts" alt="Languages" /><br/><br/>
-      <code>Agentic AI</code> <code>Multi-Agent Orchestration</code> <code>RAG</code> <code>LLM Orchestration</code> <code>LLM Evaluation</code>
+
+    ### 🤖 AI / GenAI & LLM Stack
+    - **GenAI Concepts**: Agentic AI, Multi-Agent Orchestration, RAG, LLM Orchestration, LLM Evaluation
+    - **LLMs & APIs**: Llama 3.3 (Groq), Phi-3, Gemini, OpenAI API, Hugging Face
+    - **Frameworks**: LangChain, SentenceTransformers, CLIP
+
     </td>
     <td width="50%" valign="top">
-      <h4>🧠 LLMs & Frameworks</h4>
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="Frameworks" /><br/><br/>
-      <code>LangChain</code> <code>Llama 3.3 70B (Groq)</code> <code>Phi-3</code> <code>Gemini</code> <code>OpenAI API</code> <code>Hugging Face Transformers</code> <code>SentenceTransformers</code> <code>CLIP</code>
+
+    ### 🧠 Machine Learning & CV
+    - **Frameworks**: PyTorch, TensorFlow, scikit-learn
+    - **Specializations**: Model Fine-Tuning, Computer Vision, NLP
+    - **Algorithms**: Regression Models, Intent Classification, NER
+
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🗄️ Retrieval, Vector & ML/CV</h4>
-      <img src="https://skillicons.dev/icons?i=mongodb,postgres" alt="Databases" /><br/><br/>
-      <code>FAISS</code> <code>Chroma</code> <code>Pinecone</code> <code>Embedding Pipelines</code> <code>Semantic Search</code> <code>Hybrid Search</code> <code>TensorFlow</code> <code>PyTorch</code> <code>scikit-learn</code> <code>Model Fine-Tuning</code> <code>Computer Vision</code>
+
+    ### ☁️ Cloud, DevOps & Vectors
+    - **Vector DBs**: FAISS, Chroma, Pinecone
+    - **DevOps**: Docker, CI/CD (GitHub Actions), n8n Automation
+    - **Cloud**: GCP (Google Cloud Platform), Microsoft Azure
+
     </td>
     <td width="50%" valign="top">
-      <h4>⚙️ Backend, DevOps & Frontend</h4>
-      <img src="https://skillicons.dev/icons?i=fastapi,docker,gcp,azure,react,tailwind,githubactions" alt="DevOps & Frontend" /><br/><br/>
-      <code>Python</code> <code>FastAPI</code> <code>Flask</code> <code>REST APIs</code> <code>Docker</code> <code>MongoDB</code> <code>SQL</code> <code>GCP</code> <code>Azure</code> <code>CI/CD (GitHub Actions)</code> <code>n8n</code> <code>React</code> <code>React Native</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Gradio</code> <code>TypeScript</code>
+
+    ### 🌐 Backend & Frontend Development
+    - **Languages**: Python, TypeScript, JavaScript, C++, C
+    - **Backend APIs**: FastAPI, Flask, REST APIs, SQL, MongoDB
+    - **Frontend**: React, React Native, Vite, Tailwind CSS, Gradio
+
     </td>
   </tr>
 </table>
+
+### Languages and Tools:
+<p align="left">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=python" alt="python" height="40"/> </a>&nbsp;
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=typescript" alt="typescript" height="40"/> </a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=javascript" alt="javascript" height="40"/> </a>&nbsp;
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cpp" height="40"/> </a>&nbsp;
+  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" height="40"/> </a>&nbsp;
+  <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" height="40"/> </a>&nbsp;
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" height="40"/> </a>&nbsp;
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flask" alt="flask" height="40"/> </a>&nbsp;
+  <a href="https://react.dev/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" height="40"/> </a>&nbsp;
+  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=reactnative" alt="reactnative" height="40"/> </a>&nbsp;
+  <a href="https://vite.dev/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=vite" alt="vite" height="40"/> </a>&nbsp;
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" height="40"/> </a>&nbsp;
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" height="40"/> </a>&nbsp;
+  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgres" height="40"/> </a>&nbsp;
+  <a href="https://cloud.google.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=gcp" alt="gcp" height="40"/> </a>&nbsp;
+  <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=azure" alt="azure" height="40"/> </a>&nbsp;
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" height="40"/> </a>&nbsp;
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" height="40"/> </a>&nbsp;
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=githubactions" alt="githubactions" height="40"/> </a>
+</p>
 
 ---
 
@@ -175,9 +210,9 @@ _Nov 2024 – May 2025_
 ### 📝 Research & Publications
 
 * 🏆 **IEEE Best Paper Award (2025)**
-  * _"Non-Invasive Estimation of Blood Glucose by Near-Infrared Spectroscopy and Machine Learning"_, published on **IEEE Xplore**.
+  * _"Non-Invasive Estimation of Blood Glucose by Near-Infrared Spectroscopy and Machine Learning: A Continuous Health Monitoring Prototype"_, published on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11450941).
 * 📚 **Published Technical Author (Amazon, 2024)**
-  * _"Kickstart IoT Systems Engineering: Build Intelligent IoT Systems from Embedded Devices to Cloud and Edge AI"_.
+  * _"Kickstart IoT Systems Engineering: Build Intelligent IoT Systems from Embedded Devices to Cloud and Edge AI"_, available on [Amazon](https://www.amazon.in/dp/934988724X/ref=cm_cr_dp_d_vote_lft?ie=UTF8&csrfT=hOwb6mKb6WnkZPgBJBKq%252F8b7R8pBEPWnhY%252F41RK%252BLA72AAAAAGnrdZQAAAAB&reviewId=R1MMK090B70CJQ#R1MMK090B70CJQ).
 
 ---
 
@@ -193,8 +228,8 @@ _Nov 2024 – May 2025_
 
 <div align="center">
   <!-- Replace username in the links below if your GitHub username is different -->
-  <img src="https://github-readme-stats.vercel.app/api?username=pavanbr593&show_icons=true&theme=tokyonight&count_private=true" height="180px" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanbr593&layout=compact&theme=tokyonight" height="180px" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=pavanbr593&show_icons=true&theme=tokyonight&count_private=true" height="180px" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=pavanbr593&layout=compact&theme=tokyonight" height="180px" alt="Top Languages" />
 </div>
 
 <br />
@@ -219,6 +254,7 @@ _Nov 2024 – May 2025_
   <h3>🤝 Let's Connect!</h3>
   <p>Always open to discussing AI Agent architectures, MLOps pipelines, RAG systems, or exciting open-source collaborations.</p>
   <a href="https://www.linkedin.com/in/pavan-bendre-r" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="25" /></a>&nbsp;
+  <a href="https://x.com/PavanBR18?t=vnUJFpWpWJ4sCXSQnsqBuw&s=08" target="_blank"><img src="https://img.shields.io/badge/Twitter/X-000000?style=flat&logo=x&logoColor=white" height="25" /></a>&nbsp;
   <a href="mailto:pavanbr593@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" height="25" /></a>&nbsp;
 </div>
 
