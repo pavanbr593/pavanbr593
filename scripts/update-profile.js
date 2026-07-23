@@ -220,8 +220,12 @@ async function main() {
       let readmeContent = fs.readFileSync(readmePath, 'utf8');
       const readmeRegex = /(src="\.\/assets\/terminal\.svg)(\?v=[^"\s]+)?(")/;
       readmeContent = readmeContent.replace(readmeRegex, `$1?v=${Date.now()}$3`);
+
+      const lightRegex = /(src="\.\/assets\/light\.svg)(\?v=[^"\s]+)?(")/;
+      readmeContent = readmeContent.replace(lightRegex, `$1?v=${Date.now()}$3`);
+
       fs.writeFileSync(readmePath, readmeContent, 'utf8');
-      console.log('Successfully updated README.md with cache-buster query string.');
+      console.log('Successfully updated README.md with cache-buster query strings.');
     }
 
   } catch (error) {
