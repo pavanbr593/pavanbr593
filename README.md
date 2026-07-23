@@ -69,36 +69,36 @@ _Nov 2024 – May 2025_
   <tr>
     <td width="50%" valign="top">
 
-    ### 🤖 AI / GenAI & LLM Stack
-    - **GenAI Concepts**: Agentic AI, Multi-Agent Orchestration, RAG, LLM Orchestration, LLM Evaluation
-    - **LLMs & APIs**: Llama 3.3 (Groq), Phi-3, Gemini, OpenAI API, Hugging Face
+    ### 🤖 AI / GenAI & Agentic Systems
+    - **GenAI Concepts**: Agentic AI, Multi-Agent Orchestration, RAG, Multi-Modal RAG, LLM Evaluation, Conversational AI
+    - **LLMs & APIs**: Llama 3.3 (Groq), Phi-3, Gemini API, OpenAI API, Hugging Face Transformers
     - **Frameworks**: LangChain, SentenceTransformers, CLIP
 
     </td>
     <td width="50%" valign="top">
 
-    ### 🧠 Machine Learning & CV
-    - **Frameworks**: PyTorch, TensorFlow, scikit-learn
-    - **Specializations**: Model Fine-Tuning, Computer Vision, NLP
-    - **Algorithms**: Regression Models, Intent Classification, NER
+    ### 🧠 Machine Learning & Computer Vision
+    - **ML Frameworks**: PyTorch, TensorFlow, scikit-learn
+    - **Vision & NLP**: YOLOv8, OpenCV, Model Fine-Tuning (LoRA), Intent Classification, NER
+    - **Analytics**: Regression Models, NIR Spectroscopy Processing, Signal Analysis
 
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
 
-    ### ☁️ Cloud, DevOps & Vectors
-    - **Vector DBs**: FAISS, Chroma, Pinecone
-    - **DevOps**: Docker, CI/CD (GitHub Actions), n8n Automation
+    ### ☁️ Vector Search, Cloud & MLOps
+    - **Vector DBs**: FAISS, Chroma, Pinecone, Semantic Deduplication
     - **Cloud**: GCP (Google Cloud Platform), Microsoft Azure
+    - **DevOps & Workflows**: Docker, CI/CD (GitHub Actions), n8n Automation
 
     </td>
     <td width="50%" valign="top">
 
-    ### 🌐 Backend & Frontend Development
-    - **Languages**: Python, TypeScript, JavaScript, C++, C
-    - **Backend APIs**: FastAPI, Flask, REST APIs, SQL, MongoDB
-    - **Frontend**: React, React Native, Vite, Tailwind CSS, Gradio
+    ### 🌐 Software Engineering & Full Stack
+    - **Languages**: Python, TypeScript, JavaScript, C++, C, SQL
+    - **Backend & APIs**: FastAPI, Flask, REST APIs, Node.js, Express, MongoDB, PostgreSQL
+    - **Frontend & Edge**: React, React Native, Vite, Tailwind CSS, Gradio, Streamlit
 
     </td>
   </tr>
