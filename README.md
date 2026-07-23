@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/pavanbr593"><img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/pavan-bendre-r"><img src="https://img.shields.io/badge/LinkedIn-1E293B?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://x.com/PavanBR18?t=vnUJFpWpWJ4sCXSQnsqBuw&s=08" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" /></a>&nbsp;
   <a href="mailto:pavanbr593@gmail.com"><img src="https://img.shields.io/badge/Email-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
   <a href="./assets/Pavan%20Resume.pdf"><img src="https://img.shields.io/badge/Resume-red?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>&nbsp;
   <a href="https://pavanbr-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1E293B?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>&nbsp;
