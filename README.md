@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/light.svg?v=1784784549520" alt="Pavan Bendre R - AI/ML Engineer & Researcher" width="100%" />
+  <img src="./assets/light.svg?v=1784784733674" alt="Pavan Bendre R - AI/ML Engineer & Researcher" width="100%" />
 </div>
 
 <p align="center">
@@ -25,7 +25,7 @@
 <div align="center">
   <!-- Replace USERNAME in the URL query string below if you change your GitHub username -->
   <!-- The version suffix (?v=...) is updated automatically by the update-profile workflow to bust caches -->
-  <img src="./assets/terminal.svg?v=1784784549520" alt="Pavan Bendre R - AI/ML Engineer" width="800" />
+  <img src="./assets/terminal.svg?v=1784784733674" alt="Pavan Bendre R - AI/ML Engineer" width="800" />
 </div>
 
 ---
