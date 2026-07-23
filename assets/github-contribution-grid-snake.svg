@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="850" height="160">
+  <rect width="850" height="160" fill="#0d1117" rx="10"/>
+  <style>
+    .cell { rx: 2px; ry: 2px; }
+    .c0 { fill: #161b22; }
+    .c1 { fill: #0e4429; }
+    .c2 { fill: #006d32; }
+    .c3 { fill: #26a641; }
+    .c4 { fill: #39d353; }
+    .snake-head { fill: #39d353; stroke: #ffffff; stroke-width: 1.5; }
+    .snake-body { fill: #26a641; }
+  </style>
+
+  <!-- Title & Legend -->
+  <text x="15" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#8b949e">pavanbr593's Contribution Graph</text>
+  
+  <!-- Render a stylized contribution matrix -->
+  <g transform="translate(15, 35)">
+    <!-- Simulated 52 weeks of GitHub contribution cells -->
+    <g transform="translate(0,0)"><rect class="cell c0" x="0" y="0" width="11" height="11"/><rect class="cell c1" x="0" y="15" width="11" height="11"/><rect class="cell c2" x="0" y="30" width="11" height="11"/><rect class="cell c0" x="0" y="45" width="11" height="11"/><rect class="cell c3" x="0" y="60" width="11" height="11"/><rect class="cell c1" x="0" y="75" width="11" height="11"/><rect class="cell c0" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(15,0)"><rect class="cell c1" x="0" y="0" width="11" height="11"/><rect class="cell c3" x="0" y="15" width="11" height="11"/><rect class="cell c4" x="0" y="30" width="11" height="11"/><rect class="cell c2" x="0" y="45" width="11" height="11"/><rect class="cell c1" x="0" y="60" width="11" height="11"/><rect class="cell c0" x="0" y="75" width="11" height="11"/><rect class="cell c2" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(30,0)"><rect class="cell c2" x="0" y="0" width="11" height="11"/><rect class="cell c4" x="0" y="15" width="11" height="11"/><rect class="cell c3" x="0" y="30" width="11" height="11"/><rect class="cell c1" x="0" y="45" width="11" height="11"/><rect class="cell c0" x="0" y="60" width="11" height="11"/><rect class="cell c2" x="0" y="75" width="11" height="11"/><rect class="cell c3" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(45,0)"><rect class="cell c0" x="0" y="0" width="11" height="11"/><rect class="cell c1" x="0" y="15" width="11" height="11"/><rect class="cell c2" x="0" y="30" width="11" height="11"/><rect class="cell c4" x="0" y="45" width="11" height="11"/><rect class="cell c2" x="0" y="60" width="11" height="11"/><rect class="cell c1" x="0" y="75" width="11" height="11"/><rect class="cell c0" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(60,0)"><rect class="cell c3" x="0" y="0" width="11" height="11"/><rect class="cell c2" x="0" y="15" width="11" height="11"/><rect class="cell c1" x="0" y="30" width="11" height="11"/><rect class="cell c0" x="0" y="45" width="11" height="11"/><rect class="cell c3" x="0" y="60" width="11" height="11"/><rect class="cell c4" x="0" y="75" width="11" height="11"/><rect class="cell c2" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(75,0)"><rect class="cell c4" x="0" y="0" width="11" height="11"/><rect class="cell c3" x="0" y="15" width="11" height="11"/><rect class="cell c2" x="0" y="30" width="11" height="11"/><rect class="cell c1" x="0" y="45" width="11" height="11"/><rect class="cell c0" x="0" y="60" width="11" height="11"/><rect class="cell c1" x="0" y="75" width="11" height="11"/><rect class="cell c3" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(90,0)"><rect class="cell c1" x="0" y="0" width="11" height="11"/><rect class="cell c0" x="0" y="15" width="11" height="11"/><rect class="cell c3" x="0" y="30" width="11" height="11"/><rect class="cell c4" x="0" y="45" width="11" height="11"/><rect class="cell c2" x="0" y="60" width="11" height="11"/><rect class="cell c0" x="0" y="75" width="11" height="11"/><rect class="cell c1" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(105,0)"><rect class="cell c2" x="0" y="0" width="11" height="11"/><rect class="cell c1" x="0" y="15" width="11" height="11"/><rect class="cell c0" x="0" y="30" width="11" height="11"/><rect class="cell c2" x="0" y="45" width="11" height="11"/><rect class="cell c4" x="0" y="60" width="11" height="11"/><rect class="cell c3" x="0" y="75" width="11" height="11"/><rect class="cell c1" x="0" y="90" width="11" height="11"/></g>
+    
+    <!-- Repeated grid pattern across matrix -->
+    <g transform="translate(120,0)"><rect class="cell c0" x="0" y="0" width="11" height="11"/><rect class="cell c2" x="0" y="15" width="11" height="11"/><rect class="cell c4" x="0" y="30" width="11" height="11"/><rect class="cell c3" x="0" y="45" width="11" height="11"/><rect class="cell c1" x="0" y="60" width="11" height="11"/><rect class="cell c0" x="0" y="75" width="11" height="11"/><rect class="cell c2" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(135,0)"><rect class="cell c3" x="0" y="0" width="11" height="11"/><rect class="cell c1" x="0" y="15" width="11" height="11"/><rect class="cell c0" x="0" y="30" width="11" height="11"/><rect class="cell c1" x="0" y="45" width="11" height="11"/><rect class="cell c3" x="0" y="60" width="11" height="11"/><rect class="cell c4" x="0" y="75" width="11" height="11"/><rect class="cell c2" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(150,0)"><rect class="cell c4" x="0" y="0" width="11" height="11"/><rect class="cell c3" x="0" y="15" width="11" height="11"/><rect class="cell c2" x="0" y="30" width="11" height="11"/><rect class="cell c0" x="0" y="45" width="11" height="11"/><rect class="cell c1" x="0" y="60" width="11" height="11"/><rect class="cell c2" x="0" y="75" width="11" height="11"/><rect class="cell c3" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(165,0)"><rect class="cell c1" x="0" y="0" width="11" height="11"/><rect class="cell c0" x="0" y="15" width="11" height="11"/><rect class="cell c3" x="0" y="30" width="11" height="11"/><rect class="cell c4" x="0" y="45" width="11" height="11"/><rect class="cell c2" x="0" y="60" width="11" height="11"/><rect class="cell c1" x="0" y="75" width="11" height="11"/><rect class="cell c0" x="0" y="90" width="11" height="11"/></g>
+    <g transform="translate(180,0)"><rect class="cell c2" x="0" y="0" width="11" height="11"/><rect class="cell c4" x="0" y="15" width="11" height="11"/><rect class="cell c1" x="0" y="30" width="11" height="11"/><rect class="cell c0" x="0" y="45" width="11" height="11"/><rect class="cell c3" x="0" y="60" width="11" height="11"/><rect class="cell c2" x="0" y="75" width="11" height="11"/><rect class="cell c1" x="0" y="90" width="11" height="11"/></g>
+
+    <!-- Animated Snake traversing the grid -->
+    <g>
+      <rect class="snake-body" x="120" y="30" width="11" height="11" rx="2">
+        <animate attributeName="x" values="120;135;150;165;180;180;165;150;135;120;120" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="30;30;30;30;30;45;45;45;45;45;30" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <rect class="snake-body" x="135" y="30" width="11" height="11" rx="2">
+        <animate attributeName="x" values="135;150;165;180;180;165;150;135;120;120;135" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="30;30;30;30;45;45;45;45;45;30;30" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <rect class="snake-head" x="150" y="30" width="11" height="11" rx="3">
+        <animate attributeName="x" values="150;165;180;180;165;150;135;120;120;135;150" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="30;30;30;45;45;45;45;45;30;30;30" dur="6s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

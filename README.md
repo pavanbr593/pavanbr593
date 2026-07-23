@@ -238,7 +238,7 @@ _Nov 2024 – May 2025_
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pavanbr593&theme=tokyonight" width="49%" alt="GitHub Streak" />
-  <img src="https://raw.githubusercontent.com/pavanbr593/pavanbr593/output/github-contribution-grid-snake.svg" width="49%" alt="Snake Game" />
+  <img src="./assets/github-contribution-grid-snake.svg" width="49%" alt="Snake Game" />
 </div>
 
 ---
