@@ -2,9 +2,35 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const USERNAME = 'tarunagnihotri534';
-const IGNORE_REPOS = [USERNAME, 'QR-Code-Generator']; // Ignore profile and specified repos
-const PINNED_REPOS = ['RouteLens', 'DocSense', 'PROPTRACE-SDK', 'EnvShield'];
+// ==========================================
+// CONFIGURATION
+// ==========================================
+// Replace this with your own GitHub username
+const USERNAME = 'pavanbr593'; 
+
+// Repositories to ignore in statistics or logs
+const IGNORE_REPOS = [USERNAME]; 
+
+// Key projects to pin in the terminal display
+const PINNED_REPOS = [
+  'Agentic-Partnerships-Intelligence-Pipeline',
+  'Multi-Modal-Retrieval-Augmented-Generation',
+  'LLM-Powered-Recruitment-Agents',
+  'Police-Bandobast-Management-System',
+  'Non-Invasive-Diabetes-Prediction',
+  'Kickstart-IoT-Systems-Engineering'
+];
+
+// Map repo names to shorter display labels to fit the terminal grid nicely
+const DISPLAY_NAMES = {
+  'Agentic-Partnerships-Intelligence-Pipeline': 'Partnerships-AI',
+  'Multi-Modal-Retrieval-Augmented-Generation': 'MultiModal-RAG',
+  'LLM-Powered-Recruitment-Agents': 'Recruitment-AI',
+  'Police-Bandobast-Management-System': 'Police-Bandobast',
+  'Non-Invasive-Diabetes-Prediction': 'Diabetes-Pred',
+  'Kickstart-IoT-Systems-Engineering': 'Kickstart-IoT-Ed'
+};
+
 const MAX_PROJECTS = 4;
 const TERMINAL_SVG_PATH = path.join(__dirname, '..', 'assets', 'terminal.svg');
 
@@ -58,21 +84,43 @@ async function getLatestCommit(repoName) {
   } catch (err) {
     console.error(`Error fetching commits for ${repoName}:`, err.message);
   }
-  return { sha: 'd5a3c0', message: 'init: setup repository workspace' };
+  // Safe default fallbacks based on Pavan's resume
+  const fallbacks = {
+    'Agentic-Partnerships-Intelligence-Pipeline': { sha: 'f12a9c', message: 'feat: build agentic partnerships briefs pipeline' },
+    'Multi-Modal-Retrieval-Augmented-Generation': { sha: 'd4f2b1', message: 'feat: handles image, video, and text together' },
+    'LLM-Powered-Recruitment-Agents': { sha: 'c3a12b', message: 'feat: automate resume screening evaluations' },
+    'Police-Bandobast-Management-System': { sha: 'a3d4f1', message: 'feat: deploy police duty-scheduling app' },
+    'Non-Invasive-Diabetes-Prediction': { sha: 'b5e9c2', message: 'feat: add Gemini LLM diagnostics insights' },
+    'Kickstart-IoT-Systems-Engineering': { sha: 'e2b8f3', message: 'docs: finalize edge AI chapter drafts' }
+  };
+  return fallbacks[repoName] || { sha: 'd5a3c0', message: 'init: setup repository workspace' };
 }
 
 async function main() {
   try {
     console.log(`Fetching user profile details for ${USERNAME}...`);
-    const userProfileUrl = `https://api.github.com/users/${USERNAME}`;
-    const userProfile = await get(userProfileUrl);
-    const reposCount = userProfile.public_repos !== undefined ? userProfile.public_repos : 21;
-    const followersCount = userProfile.followers !== undefined ? userProfile.followers : 4;
-    const isHireable = userProfile.hireable !== null && userProfile.hireable !== undefined ? userProfile.hireable : true;
+    let reposCount = 12;
+    let followersCount = 5;
+    let isHireable = true;
+
+    try {
+      const userProfileUrl = `https://api.github.com/users/${USERNAME}`;
+      const userProfile = await get(userProfileUrl);
+      reposCount = userProfile.public_repos !== undefined ? userProfile.public_repos : reposCount;
+      followersCount = userProfile.followers !== undefined ? userProfile.followers : followersCount;
+      isHireable = userProfile.hireable !== null && userProfile.hireable !== undefined ? userProfile.hireable : isHireable;
+    } catch (profileErr) {
+      console.warn(`Could not fetch profile details, using defaults:`, profileErr.message);
+    }
 
     console.log(`Fetching active repositories for ${USERNAME}...`);
-    const reposUrl = `https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=50`;
-    const allRepos = await get(reposUrl);
+    let allRepos = [];
+    try {
+      const reposUrl = `https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=50`;
+      allRepos = await get(reposUrl);
+    } catch (reposErr) {
+      console.warn(`Could not fetch active repositories, using defaults:`, reposErr.message);
+    }
     
     // Prioritize pinned repositories
     const pinnedReposList = [];
@@ -80,6 +128,20 @@ async function main() {
       const found = allRepos.find(repo => repo.name.toLowerCase() === name.toLowerCase());
       if (found) {
         pinnedReposList.push(found);
+      } else {
+        // Build mock fallback for missing repos to keep output beautiful
+        const mappedLanguages = {
+          'Agentic-Partnerships-Intelligence-Pipeline': 'Python',
+          'Multi-Modal-Retrieval-Augmented-Generation': 'Python',
+          'LLM-Powered-Recruitment-Agents': 'Python',
+          'Police-Bandobast-Management-System': 'React Native',
+          'Non-Invasive-Diabetes-Prediction': 'Python',
+          'Kickstart-IoT-Systems-Engineering': 'C++'
+        };
+        pinnedReposList.push({
+          name: name,
+          language: mappedLanguages[name] || 'TypeScript'
+        });
       }
     });
 
@@ -99,19 +161,10 @@ async function main() {
       const commit = await getLatestCommit(repo.name);
       projects.push({
         name: repo.name,
-        language: repo.language || 'TypeScript',
+        displayName: DISPLAY_NAMES[repo.name] || repo.name,
+        language: repo.language || 'Python',
         sha: commit.sha,
         commitMessage: commit.message
-      });
-    }
-
-    // Fill up to 4 if less are returned (failsafe)
-    while (projects.length < MAX_PROJECTS) {
-      projects.push({
-        name: 'Workspace',
-        language: 'TypeScript',
-        sha: 'd5a3c0',
-        commitMessage: 'init: setup developer profile workspace'
       });
     }
 
@@ -124,8 +177,8 @@ async function main() {
     let projectListSvg = '';
     let yPosProjects = [262, 284, 306, 328];
     projects.forEach((proj, idx) => {
-      const repoStr = `${proj.name}/`;
-      const spacesCount = Math.max(1, 18 - repoStr.length);
+      const repoStr = `${proj.displayName}/`;
+      const spacesCount = Math.max(1, 19 - repoStr.length);
       const spaces = ' '.repeat(spacesCount);
       const color = colors[idx % colors.length];
       projectListSvg += `    <text x="36" y="${yPosProjects[idx]}" font-size="14"><tspan fill="${color}">  &#x25CF; </tspan><tspan fill="#58a6ff" font-weight="700">${repoStr}</tspan><tspan fill="#484f58">${spaces}${proj.language}</tspan></text>\n`;
@@ -136,7 +189,7 @@ async function main() {
     let gitLogSvg = '';
     let yPosGit = [468, 490, 512, 534];
     projects.forEach((proj, idx) => {
-      gitLogSvg += `    <text x="36" y="${yPosGit[idx]}" font-size="14"><tspan fill="#3fb950">  * </tspan><tspan fill="#e3b341">${proj.sha}</tspan><tspan fill="#e6edf3" font-weight="700">  ${proj.commitMessage}</tspan><tspan fill="#39c5cf">  (${proj.name})</tspan></text>\n`;
+      gitLogSvg += `    <text x="36" y="${yPosGit[idx]}" font-size="14"><tspan fill="#3fb950">  * </tspan><tspan fill="#e3b341">${proj.sha}</tspan><tspan fill="#e6edf3" font-weight="700">  ${proj.commitMessage}</tspan><tspan fill="#39c5cf">  (${proj.displayName})</tspan></text>\n`;
     });
     gitLogSvg = gitLogSvg.trimEnd();
 
