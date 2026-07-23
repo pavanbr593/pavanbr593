@@ -193,8 +193,8 @@ _Nov 2024 – May 2025_
         <li>Guides developers on building intelligent IoT systems from embedded nodes (Arduino/ESP32) up to Cloud and Edge AI.</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <!-- Grid Spacer -->
+    <td width="50%" align="center" valign="middle">
+      <img src="https://user-images.githubusercontent.com/73696489/114419405-050adc00-9bd1-11eb-94ee-46acea810265.gif" width="300" alt="Robot Animation" />
     </td>
   </tr>
 </table>
